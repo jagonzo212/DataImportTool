@@ -1,0 +1,29 @@
+﻿<data>
+  <entity name="cog_entity1" count="5">
+    <attribute name="cog_name"></attribute>
+    <attribute name="cog_contactname" ></attribute>
+    <attribute name="cog_optionset"></attribute>
+    <attribute name="cog_twooptions"></attribute>
+    <attribute name="cog_number"></attribute>
+    <attribute name="cog_date"></attribute>
+    
+    <attribute name="cog_money" ></attribute>
+    <attribute name="cog_floatingpoint"></attribute>
+    <attribute name="cog_decimal"></attribute>
+    <childEntity name="cog_entity2" max="5" min="0" parentLookUpName="cog_entity1id">
+      <attribute name="cog_name" mockarooType="Car Make"></attribute>
+      <attribute name="cog_contactname" mockarooType="Full Name"></attribute>
+      <attribute name="cog_optionset"></attribute>
+      <attribute name="cog_twooptions" mockarooType="Boolean"></attribute>
+      <attribute name="cog_number" mockarooType="Number" decimals="0" min="0" max="10"></attribute>
+      <attribute name="cog_date" mockarooType="Date" min="1/1/2010" max="1/1/2018" format="%m/%d/%Y"></attribute>
+    </childEntity>
+  </entity>
+  <entity name="cog_entity3" count="5">
+    <attribute name="cog_name" mockarooType="App Name"></attribute>
+    <attribute name="cog_optionset"></attribute>
+    <attribute name="cog_twooptoins" mockarooType="Boolean"></attribute>
+    <attribute name="cog_number" mockarooType="Number" decimals="0" min="0" max="10"></attribute>
+    <attribute name="cog_date" mockarooType="Date" min="1/1/2010" max="1/1/2018" format="%m/%d/%Y"></attribute>
+  </entity>
+</data>

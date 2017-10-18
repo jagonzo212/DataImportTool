@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDataImportTemplate", "DataImportTool\ReadDataImportTemplate.csproj", "{9336F795-A720-4D60-BC53-9C871842E601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Driver", "Driver\Driver.csproj", "{3138BC75-3BD9-46F4-A306-545764326378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockarooDataGenerator", "MockarooDataGenerator\MockarooDataGenerator.csproj", "{F1609A34-C532-4229-9A17-48045F8AB59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDataToCrm", "LoadDataToCrm\LoadDataToCrm.csproj", "{CC377FD5-F67E-4EAD-9875-33E1534673B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9336F795-A720-4D60-BC53-9C871842E601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336F795-A720-4D60-BC53-9C871842E601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9336F795-A720-4D60-BC53-9C871842E601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9336F795-A720-4D60-BC53-9C871842E601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3138BC75-3BD9-46F4-A306-545764326378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3138BC75-3BD9-46F4-A306-545764326378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3138BC75-3BD9-46F4-A306-545764326378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3138BC75-3BD9-46F4-A306-545764326378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1609A34-C532-4229-9A17-48045F8AB59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1609A34-C532-4229-9A17-48045F8AB59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1609A34-C532-4229-9A17-48045F8AB59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1609A34-C532-4229-9A17-48045F8AB59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC377FD5-F67E-4EAD-9875-33E1534673B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC377FD5-F67E-4EAD-9875-33E1534673B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC377FD5-F67E-4EAD-9875-33E1534673B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC377FD5-F67E-4EAD-9875-33E1534673B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
